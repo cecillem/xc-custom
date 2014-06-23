@@ -1,0 +1,2 @@
+- name: clone {{ repo }}
+  git: repo=ssh://git@bitbucket.org/{{ repo }}.git dest=~/src/bitbucket.org/{{ repo }} accept_hostkey=yes key_file=~/.ssh/id_rsa

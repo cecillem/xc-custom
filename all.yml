@@ -29,3 +29,6 @@
 
   - role: cask_package
     package_name: skitch
+
+  - role: bitbucket_package
+    repo: dealgrocer/dg3-dev-box

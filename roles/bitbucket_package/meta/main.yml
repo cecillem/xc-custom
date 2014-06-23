@@ -1,0 +1,3 @@
+dependencies:
+  - role: brew_package
+    package_name: git
