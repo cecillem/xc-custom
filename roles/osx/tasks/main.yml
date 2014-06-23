@@ -1,0 +1,5 @@
+- name: add osx conf
+  copy: src=osx dest=~/osx
+
+- name: run osx
+  command: ~/osx executable=/bin/sh
