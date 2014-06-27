@@ -39,7 +39,11 @@
   - role: cask_package
     package_name: skype
 
+  - role: cask_package
+    package_name: spotify
+
   - role: bitbucket_package
     repo: dealgrocer/dg3-dev-box
 
   - role: osx
+
