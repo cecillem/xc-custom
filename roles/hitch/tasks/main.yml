@@ -1,0 +1,5 @@
+- name: install hitch
+  gem: name=hitch state=present
+
+- name: add hitch setup to zshrc
+  shell: hitch --setup >> ~/.zshrc
