@@ -60,6 +60,9 @@
   - role: cask_package
     package_name: textmate
 
+  - role: cask_package
+    package_name: tomighty
+
   - role: bitbucket_package
     repo: dealgrocer/dg3-dev-box
 
